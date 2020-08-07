@@ -20,6 +20,7 @@ end
 def self.find_by_name(name)
     self.all.find do |cult|
         cult.name == name
+        binding.pry
     end
 end
 
